@@ -1,4 +1,18 @@
+# 2026-10-31 Obsidian専用リポジトリ
+
+共有ノート・索引・テンプレート・Bases・Canvasをdocs/knowledgeからobsidian/knowledgeへ移し、AquaBeacon/obsidianで公開。個人メモ・日誌・添付も手元の新配置へ保持し、Git除外を継続。親保管庫の参照・台帳・設定・入口を同期。
+
 # OSSワークスペースへの移行
+
+## 2026-10-28：実験用ファームウェアの追加
+
+ユーザーが「実験で実際に使ったコード」と指定した [firmware-experiments](https://github.com/AquaBeacon/firmware-experiments) を、ワークスペース直下へ独立したGitリポジトリとして通常cloneしました。mainの取得時HEADは `ab7857cf7e246bb388e9d28e310e677ca0499c69`。既存firmware・acoustic-tests・spresense-imuとは別に保持します。
+
+- 台帳、親READMEとそのテンプレート、VS Code構成、知識索引を18件の現行構成へ同期。過去の17件の公開記録は当時の記録として維持。
+- 取得コードは変更せず、内容を [知識ノート](../../obsidian/knowledge/notes/実験で使用した統合ファームウェア.md) に記録。ユーザーの使用実績の説明と、取得元レポートの検証結果を区別。
+- 取得元にはルートLICENSE・NOTICE・THIRD_PARTY・DEVELOPMENTがない。第三者ライブラリの表記を保持し、独自コードのライセンスは `not-declared` と記録。構成検査は台帳の `required_files` で取得元の実ファイルを確認する。
+- 実機操作・Wi-Fi切替・SD操作・ビルド・ファームウェア試験・GitHubへのpushは行っていない。
+
 
 ## 2026-10-16：GitHub公開
 

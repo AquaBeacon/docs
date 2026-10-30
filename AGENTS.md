@@ -5,3 +5,4 @@
 - 変更に関係するDEVELOPMENT.mdの検証を実施し、未実施と失敗を区別して報告する。
 - 実機への書込み・印刷・公開は、それぞれの作業指示と接続先を確認する。
 - 仕様・構成・セットアップを変えたらREADMEと該当docsを同時に更新し、docsの増減は索引に反映する。
+- 知識の入口は `../obsidian/knowledge/ホーム.md`。自由メモはGit除外の `../obsidian/knowledge/private/` へ置き、共有する知識は `../obsidian/knowledge/notes/` に出典と適用条件を添える。分類やテンプレートを必須にしない。

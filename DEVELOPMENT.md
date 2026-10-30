@@ -11,6 +11,16 @@ README.md の索引から配線・システム仕様を確認します。購入�
 
 ## 検証
 
+Obsidianノートの配置・リンク・Canvasを変更した場合は、親フォルダで確認します。
+
+```sh
+python workspace-tools/obsidian.py configure
+python workspace-tools/obsidian.py check
+python workspace-tools/workspace.py check
+```
+
+初期化と保管庫の開き方は [knowledge/README.md](knowledge/README.md) を参照してください。
+
 ビルド・実機・外部ツールの確認手順はREADMEを参照してください。移行検証だけで実機動作・製造可能性を合格扱いにしません。
 
 ## データと関連リポジトリ

@@ -1,5 +1,11 @@
 # AquaBeacon ドキュメント索引
 
+## 知識をためる・つなぐ
+
+[Obsidianナレッジベース](https://github.com/AquaBeacon/obsidian/blob/main/knowledge/README.md)を追加しました。[ホーム](https://github.com/AquaBeacon/obsidian/blob/main/knowledge/ホーム.md)から分野別の索引と出典付き知識へ進めます。自由メモ・調査・実験・判断・日誌を残す型、Basesの一覧、Canvasの関係図を用意しています。個人メモの既定保存先はGit除外の `../obsidian/knowledge/private/` です。
+
+保管庫として開くのは親の `AquaBeacon-OSS` 全体です。初期化・保存先・維持方法は[Obsidian構成](maintainer/obsidian.md)を参照してください。
+
 ## 開発内容と動画企画
 
 [開発整理・60秒動画企画の入口](video-plan/README.md)
@@ -31,6 +37,9 @@
 
 ## リポジトリ運用
 
+- [実験で使用した統合ファームウェア](https://github.com/AquaBeacon/obsidian/blob/main/knowledge/notes/実験で使用した統合ファームウェア.md)：2026-10-28取得版の構成・操作・ログと検証状況。
+
 - [OSS移行記録と検証](maintainer/migration.md)
 - [紹介サイトの運用記録](maintainer/website-operations.md)
+- [Obsidianの構成と維持](maintainer/obsidian.md)
 - [全プロジェクト一覧](https://github.com/AquaBeacon/workspace-tools)
