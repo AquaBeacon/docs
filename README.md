@@ -43,3 +43,7 @@
 - [紹介サイトの運用記録](maintainer/website-operations.md)
 - [Obsidianの構成と維持](maintainer/obsidian.md)
 - [全プロジェクト一覧](https://github.com/AquaBeacon/workspace-tools)
+
+## 成果報告会資料
+
+- [2026年10月31日版：自己紹介〜プールのマッピング評価（12枚・原稿付き）](presentations/20261031-progress-report/README.md)
