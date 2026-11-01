@@ -6,9 +6,11 @@
 
 静止評価は2026-11-01 10:15〜10:16 JST、平均深度16.44 m、採用32点。姿勢補正後の平均まわり3D RMSEは0.1397 m、親機姿勢固定は1.4545 m（90.4%減）。位置真値に対する誤差ではない。深度は水圧由来の未校正相対深度。公開用に選定した数値・既存派生図・ハッシュのみを配信し、raw、元動画、絶対GNSS位置、ローカル絶対パスは掲載しない。
 
-マッピングは解析中。未確認の地図や架空の結果を掲載せず、`pending` を表示する。後日、検証済みの点群と尺度・座標系・評価条件を追加すると、同じURLで回転・拡大して閲覧できる。自作ローカルJavaScriptだけを使用し、外部JS・CDN・ビルド依存は追加しない。本文・表・リンクはJavaScriptなしで読める。
+マッピング解析の完了後、5区間の82,500点・230写真面・218,697三角形を全て保持したWebGLビューアーと `/research/reports/20261102-mapping/` を追加。7区間のうち2区間は拘束不足で地図未採用。尺度・配置は暫定、独立真値による精度と日をまたぐ写真接続は未検証。複数区間は共通ENUへのGNSS重ね合わせとして表示する。固定QRは変更しない。生動画・生ログ・航法時系列・地理原点は配信しない。自作ローカルJavaScriptだけを使用し、外部JS・CDN・ビルド依存は追加しない。本文・表・リンクはJavaScriptなしで読める。
 
-2026-11-02にGitHub Actions成功と追加5ページの本番HTTP 200を確認した。本番PNG/SVGのSHA-256も公開用来歴と一致。公開元はサイトリポジトリの `86aa128ad12c223699721caa722e759a12b4cf40`、詳細は [PUBLICATION.md](https://github.com/AquaBeacon/aquabeacon.github.io/blob/main/PUBLICATION.md) に記録する。ローカル作成と公開済みを混同しない。地図更新手順は同じリポジトリの `MAP_PUBLISHING.md`、QR原稿と素材は `poster/2026-11/`。
+初回の研究ページ追加では2026-11-02にGitHub Actions成功と追加5ページの本番HTTP 200を確認した。本番PNG/SVGのSHA-256も公開用来歴と一致。公開元はサイトリポジトリの `86aa128ad12c223699721caa722e759a12b4cf40`、詳細は [PUBLICATION.md](https://github.com/AquaBeacon/aquabeacon.github.io/blob/main/PUBLICATION.md) に記録する。ローカル作成と公開済みを混同しない。地図更新手順は同じリポジトリの `MAP_PUBLISHING.md`、QR原稿と素材は `poster/2026-11/`。
+
+2026-11-02のマッピング追加も本番確認済み。サイト公開元 `44409506dc704b7d7492d53dd27be57cd2296df4`、[Actions成功](https://github.com/AquaBeacon/aquabeacon.github.io/actions/runs/41338624247)、7ページのHTTP 200、247ファイルのSHA-256一致を確認。初期区間の4,200点・25写真面が本番で表示・操作できる。375px・1280pxと全区間切替はブラウザで検証済み、スマホ実機・印刷QRは未検証。
 
 > この文書の2026-09-27の記述は紹介サイト初回公開時の運用記録です。2026-10-15のリポジトリ移行と現在の構成は [migration.md](migration.md) を参照してください。`organization-live/` と作業用 `organization/` は履歴付きの `organization/` に統合しました。
 

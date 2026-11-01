@@ -40,7 +40,7 @@
 - [実験で使用した統合ファームウェア](https://github.com/AquaBeacon/obsidian/blob/main/knowledge/notes/実験で使用した統合ファームウェア.md)：2026-10-28取得版の構成・操作・ログと検証状況。
 
 - [OSS移行記録と検証](maintainer/migration.md)
-- [紹介サイトの運用記録](maintainer/website-operations.md)
+- [紹介サイト・研究結果・写真付きマップの運用記録](maintainer/website-operations.md)
 - [Obsidianの構成と維持](maintainer/obsidian.md)
 - [全プロジェクト一覧](https://github.com/AquaBeacon/workspace-tools)
 
