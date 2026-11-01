@@ -1,5 +1,15 @@
 # 公開仕様・運用
 
+## 研究・結果ページの追加（2026-11-02）
+
+既存サイトの `site/` 内に `/research/`、`/research/methods/`、`/research/reports/`、`/research/reports/20261101-static/`、`/map/` を追加。ポスターのQRは `https://aquabeacon.github.io/map/` を固定リンクにする。
+
+静止評価は2026-11-01 10:15〜10:16 JST、平均深度16.44 m、採用32点。姿勢補正後の平均まわり3D RMSEは0.1397 m、親機姿勢固定は1.4545 m（90.4%減）。位置真値に対する誤差ではない。深度は水圧由来の未校正相対深度。公開用に選定した数値・既存派生図・ハッシュのみを配信し、raw、元動画、絶対GNSS位置、ローカル絶対パスは掲載しない。
+
+マッピングは解析中。未確認の地図や架空の結果を掲載せず、`pending` を表示する。後日、検証済みの点群と尺度・座標系・評価条件を追加すると、同じURLで回転・拡大して閲覧できる。自作ローカルJavaScriptだけを使用し、外部JS・CDN・ビルド依存は追加しない。本文・表・リンクはJavaScriptなしで読める。
+
+2026-11-02にGitHub Actions成功と追加5ページの本番HTTP 200を確認した。本番PNG/SVGのSHA-256も公開用来歴と一致。公開元はサイトリポジトリの `86aa128ad12c223699721caa722e759a12b4cf40`、詳細は [PUBLICATION.md](https://github.com/AquaBeacon/aquabeacon.github.io/blob/main/PUBLICATION.md) に記録する。ローカル作成と公開済みを混同しない。地図更新手順は同じリポジトリの `MAP_PUBLISHING.md`、QR原稿と素材は `poster/2026-11/`。
+
 > この文書の2026-09-27の記述は紹介サイト初回公開時の運用記録です。2026-10-15のリポジトリ移行と現在の構成は [migration.md](migration.md) を参照してください。`organization-live/` と作業用 `organization/` は履歴付きの `organization/` に統合しました。
 
 ## 現在の状態（2026-09-27）
