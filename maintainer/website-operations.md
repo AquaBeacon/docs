@@ -1,5 +1,14 @@
 # 公開仕様・運用
 
+## 2026-11-06：OSSサイトの全面再構築
+
+AquaWiz Design v3.1を参照し、概要・仕組み・研究結果・つくる/使う・公開資料・軌跡とマップを共通導線へ整理。既存URLを維持して11ページに再構成し、`/build/` と `/resources/` を追加した。公開リポジトリは19件で、用途別一覧から設計仕様と実装へ進める。
+
+編集元はサイトリポジトリの `content/*.html` と `tools/build_site.py`、生成・配信先は従来どおり `site/`。外部JavaScriptやCDN、CIビルド依存は追加しない。OFL付き自己配信フォントと既存提供写真の縮小版を使い、来歴を保持する。`/map/` は既存PC構成を維持し、スマホの指操作案内を追加。位置・校正値・欠測・研究図・地図データは変更しない。
+
+全体は `tools/verify_pages_browser.mjs`、マップ機能は `tools/verify_map_browser.mjs`、生成一致は `tools/build_site.py --check`、リンク・ハッシュは `tools/verify_site.py` で検証する。実施結果・公開元SHA・Actionsと本番確認は [サイトの公開記録](https://github.com/AquaBeacon/aquabeacon.github.io/blob/main/PUBLICATION.md) を正本とし、ローカル生成と公開完了を区別する。
+
+
 ## 研究・結果ページの追加（2026-11-02）
 
 既存サイトの `site/` 内に `/research/`、`/research/methods/`、`/research/reports/`、`/research/reports/20261101-static/`、`/map/` を追加。ポスターのQRは `https://aquabeacon.github.io/map/` を固定リンクにする。
