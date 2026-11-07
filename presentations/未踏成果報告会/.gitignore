@@ -1,0 +1,16 @@
+# Local source media and reproducible inspection outputs; do not publish raw data.
+/assets/
+/media/
+/figures/
+/build/
+/review/
+/output/
+/coverage_samples.csv
+/coverage_summary.csv
+/evidence_manifest.json
+/source_inspection.json
+/inspection_process.json
+/verification.json
+/source_inventory.csv
+/*.pptx
+/*.pdf

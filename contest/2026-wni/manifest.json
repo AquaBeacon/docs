@@ -1,0 +1,117 @@
+{
+  "created": "2026-11-06",
+  "purpose": "15th WNI high school technical college meteorological observation equipment contest secondary report",
+  "official_requirements": {
+    "url": "https://www.wxbunka.com/cms/wp-content/uploads/2022/11/contest_15th_0129.pdf",
+    "checked_date": "2026-11-06",
+    "page": 2,
+    "maximum_pages": 5,
+    "paper": "A4",
+    "minimum_font_pt": 10
+  },
+  "participant_identity": {
+    "source": "Current project presentation manuscript",
+    "school": "兵庫県立長田高校",
+    "year": "2",
+    "name": "神山瑠星",
+    "registration_sheet_checked": false
+  },
+  "temperature_check": {
+    "source": "aquabeacon-analysis\\data\\processed\\20261101_nanyo_003\\synchronized\\child\\C_MAIN_HEALTH_RANGE_68440.health.csv",
+    "time_column": "sync_utc_s",
+    "value_column": "temp_c",
+    "selection": "2026-11-01T10:15:00+09:00 <= timestamp < 2026-11-01T10:16:00+09:00",
+    "records": 46,
+    "min_c": 24.391021728515625,
+    "max_c": 24.399505615234375,
+    "mean_c": 24.393419348675273,
+    "sample_first_utc": 1793495714.25399,
+    "sample_last_utc": 1793495759.396472,
+    "calibration": "No independent temperature calibration claimed"
+  },
+  "artifacts": [
+    {
+      "path": "AquaBeacon_二次審査報告書.md",
+      "sha256": "e8b5812c98583cc747138057131bdbd9f887c9147c3512b8790ae932eb967f47",
+      "bytes": 13500
+    },
+    {
+      "path": "AquaBeacon_二次審査報告書.docx",
+      "sha256": "ddff42265e41e1d387b4b728bce35d7f1299b1813b545d0a49a05d4617f6a402",
+      "bytes": 126571
+    },
+    {
+      "path": "AquaBeacon_二次審査報告書.pdf",
+      "sha256": "915f4a8677a0d573ba4c39e1378fe1fd30ee8bea8b463b8f9d40fe51bea5f788",
+      "bytes": 893123
+    },
+    {
+      "path": "build_contest_report.py",
+      "sha256": "f1a2378079fc26a576f2ce279ffa26ac5f101a654167e818a7aa765fde035c8d",
+      "bytes": 13668
+    },
+    {
+      "path": "sources_and_requirements.md",
+      "sha256": "ecc7c1dfc164a81386baa90393c223c54f60eb7b1fad633bd47a16b0d93bad8a",
+      "bytes": 5949
+    },
+    {
+      "path": "README.md",
+      "sha256": "b1ce857f2c21b6fc8374ea90a0fbaaf29d125de252d046bf2b01dadc38c9e52c",
+      "bytes": 1224
+    },
+    {
+      "path": "assets/field_deployment.jpg",
+      "sha256": "d8b91594c06d3a794ecccfe36839afa9c5a661ffd94a7f1bd45a0e7b9b91cfb6",
+      "bytes": 63889
+    },
+    {
+      "path": "assets/surface_and_light.jpg",
+      "sha256": "b2ed26926e983645bd2a301d9789f1ad6ecfb52aec6b621eb4bc9f5efb2511d3",
+      "bytes": 17222
+    }
+  ],
+  "sources": [
+    {
+      "path": "docs/research/20261106/AquaBeacon_研究レポート.md",
+      "sha256": "08fa802fef064f059db37124c7d4b10550e2cc01f78e5d1396dcefb3cdce4706"
+    },
+    {
+      "path": "docs/research/20261106/manifest.json",
+      "sha256": "708982c60d609476f979f56d6a446010c647ce5b97d1893be5c3a95fec93711d"
+    },
+    {
+      "path": "docs/presentations/未踏成果報告会/発表原稿.md",
+      "sha256": "11731aca6bf681ab776e8d79218e61f5537309db57ffa740162c9a24bfe3f5aa"
+    },
+    {
+      "path": "docs/presentations/未踏成果報告会/出典・評価条件_20261106.md",
+      "sha256": "b34f93f430655d411dc7756d5a1e49ed50fd49c5ff48388d9ef4d3a421e59af1"
+    },
+    {
+      "path": "docs/presentations/未踏成果報告会/02_素材と動画.md",
+      "sha256": "730f4bceeb8ceea2af96d37afd654c955329140721c80280b39c99be9395c117"
+    },
+    {
+      "path": "docs/presentations/未踏成果報告会/assets/IMG_8286.jpg",
+      "sha256": "d8b91594c06d3a794ecccfe36839afa9c5a661ffd94a7f1bd45a0e7b9b91cfb6"
+    },
+    {
+      "path": "docs/presentations/未踏成果報告会/assets/IMG_8328.jpg",
+      "sha256": "b2ed26926e983645bd2a301d9789f1ad6ecfb52aec6b621eb4bc9f5efb2511d3"
+    },
+    {
+      "path": "aquabeacon-analysis/data/processed/20261101_nanyo_003/synchronized/child/C_MAIN_HEALTH_RANGE_68440.health.csv",
+      "sha256": "b997bd991fdc43035641e5ad2ef4a3645b9f4e804268c89b3530bd83b548b0c5"
+    }
+  ],
+  "validation": {
+    "actual_pdf_pages": 5,
+    "minimum_text_font_pt": 10,
+    "visual_review": "PASS all 5 pages",
+    "scientific_review": "PASS; temperature mean independently checked against existing synchronized log",
+    "document_copy_hash_match": true,
+    "process_cleanup": "PASS all recorded task-owned renderers exited",
+    "submitted": false
+  }
+}

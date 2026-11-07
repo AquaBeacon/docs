@@ -1,0 +1,118 @@
+{
+  "title": "AquaBeacon research report",
+  "assembled_date": "2026-11-06",
+  "experiment_dates": [
+    "2026-10-28",
+    "2026-10-31",
+    "2026-11-01"
+  ],
+  "source_policy": "Read existing results only; no raw-data modification, no analysis or plot regeneration, no publication",
+  "sources": [
+    {
+      "path": "firmware-experiments/docs/spec.md",
+      "sha256": "1878381d548d2ffbea46296ce1e60950f0bc24643fd4cb1406292cad8886e4c3"
+    },
+    {
+      "path": "firmware-experiments/README.md",
+      "sha256": "46b4fbf672df157a1259cf6df3a067739d1f1c557c0071b9ce12b3f63fcd1e58"
+    },
+    {
+      "path": "aquabeacon-analysis/results/20261103_field_review_000/research_review/03_methods.md",
+      "sha256": "2594236719049d07207ab0dcbeb8ee3350f539bcb45f85fdf3193d12c5090d75"
+    },
+    {
+      "path": "aquabeacon-analysis/calibration/README.md",
+      "sha256": "b60ddf8982c448b5bc2cc32459c5097c2f3676319d771e865c479aab01ea33e3"
+    },
+    {
+      "path": "aquabeacon-analysis/results/20261028_ngt_002/static_after_immersion_20261105/report.md",
+      "sha256": "5ff661eddffb2ca7d15a88fe8eed6560944f589b3809a1a5914d2f22f033ab77"
+    },
+    {
+      "path": "aquabeacon-analysis/results/20261028_ngt_002/static_after_immersion_20261105/metrics.json",
+      "sha256": "37850a414691f6076b384b2aadfcc6689c20a64e248d2880c80cc39f871d144a"
+    },
+    {
+      "path": "aquabeacon-analysis/results/20261028_ngt_000/optical_followup/pool_multiscale_20261104/report.md",
+      "sha256": "314dc024b67bad8e87b59637be3e79ff68e21dc88a57bed52b2a4d1ba19a0dbc"
+    },
+    {
+      "path": "aquabeacon-analysis/results/20261103_field_review_000/research_review/05_nanyo.md",
+      "sha256": "dffd48d1442e243110072c1d3a03efd4749aa97dcf1c032d99d0004d84a7917e"
+    },
+    {
+      "path": "aquabeacon-analysis/results/20261103_field_review_000/research_review/stationary_summary.csv",
+      "sha256": "abcbd7300b586632601ec47a7665cb9514e7cc0445ceb66af5ade16bc2502c63"
+    },
+    {
+      "path": "aquabeacon-analysis/results/20261103_field_review_000/optical_followup/optical_fallback_20261104/report.md",
+      "sha256": "07b117986cbaa62830dd3e1a8972c9cf31daf4d2d318bd508706383d0e580488"
+    },
+    {
+      "path": "aquabeacon-analysis/results/20261103_field_review_000/optical_followup/optical_fallback_20261104/paired_static_rms.csv",
+      "sha256": "9fc7669640cfa86a2be0774210ad86dc50d366b3da2403487c58c45621818d8b"
+    },
+    {
+      "path": "aquabeacon-analysis/results/20261028_ngt_004/mapping_diagnosis/wall_ablation_v2_20261104/report.md",
+      "sha256": "9ef336e4f175b2ce10c26ce13d91a02b4c96caa0c31eb6bb711b2c3608b806cc"
+    }
+  ],
+  "repositories": [
+    {
+      "path": "docs",
+      "head": "cf2218329a9129455affbf12d95da766f54eef8c",
+      "has_tracked_working_changes": true
+    },
+    {
+      "path": "aquabeacon-analysis",
+      "head": "5aeb0bacd9cb20d61013c2981b7bd02862ff9d43",
+      "has_tracked_working_changes": true
+    },
+    {
+      "path": "firmware-experiments",
+      "head": "ab7857cf7e246bb388e9d28e310e677ca0499c69",
+      "has_tracked_working_changes": false
+    }
+  ],
+  "runtime": {
+    "python": "C:/Users/ryupc/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "builder": "build_report.py"
+  },
+  "validation": {
+    "local_markdown_links": "PASS",
+    "pool_factual_review": "PASS",
+    "nanyo_factual_review": "PASS after table heading and delayed-ranging label corrections",
+    "workspace_check": "19 repositories; 0 structural errors",
+    "document_visual_review": "PASS: all 11 final pages inspected; title rule removed; table 2 kept together; no clipped text or missing glyphs",
+    "page_count": 11,
+    "renderer": "Microsoft Word via task-owned VBScript instance, then bundled Poppler PNG rendering; packaged LibreOffice renderer unavailable on this Windows runtime",
+    "task_process_cleanup": "PASS: all recorded task-owned Word and rendering controllers exited"
+  },
+  "artifacts": [
+    {
+      "path": "AquaBeacon_研究レポート.md",
+      "sha256": "08fa802fef064f059db37124c7d4b10550e2cc01f78e5d1396dcefb3cdce4706",
+      "bytes": 27030
+    },
+    {
+      "path": "AquaBeacon_研究レポート.docx",
+      "sha256": "0b05eb0b019e9ce72fba6da727dcf28487e86c174e361cb06eea06c51df8b011",
+      "bytes": 50791
+    },
+    {
+      "path": "build_report.py",
+      "sha256": "be510bf081efaa53c7d023c306e892025c14d49a92855fe10d4b859d73168e54",
+      "bytes": 10102
+    },
+    {
+      "path": "sources.md",
+      "sha256": "5169811f20d7247f69f6c3a86f400226614b924f744f03f8574a06dc9fa3823c",
+      "bytes": 5935
+    },
+    {
+      "path": "README.md",
+      "sha256": "21d593cae6225d2c6d73e763ca84a31e9951f351b77f9e3ab19d0b1f34d546f5",
+      "bytes": 793
+    }
+  ]
+}

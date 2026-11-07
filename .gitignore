@@ -28,3 +28,11 @@ Thumbs.db
 *.pptx
 /archive/
 /reports/
+
+# Personal Obsidian notes and pasted attachments stay local.
+/knowledge/private/
+.obsidian/
+.trash/
+
+# Third-party course handouts and completed worksheet derivatives stay local.
+/JSST_scientific_writing/
